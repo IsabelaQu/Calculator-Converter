@@ -1,0 +1,51 @@
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.418); /* Branco com 70% de opacidade */
+    border-bottom: 1px solid #8C4126; /* Borda sutil para definir o contorno do header */
+    padding: 10px 0;
+}
+
+main {
+    padding-top: 60px; 
+  }
+  
+  /* Estilos da navbar */
+  .navbar {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #BF6C3B; /* Cor do texto da marca */
+  }
+  
+  .navbar-toggler {
+    border-color: #8C4126; /* Cor da borda do botão de toggle */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-item {
+    margin: 0 10px; /* Espaço entre os itens de navegação */
+  }
+  
+  .nav-link {
+    color: #111426; /* Cor do texto dos links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #BF6C3B; /* Cor dos links ao passar o mouse */
+  }
+  

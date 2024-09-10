@@ -1,0 +1,85 @@
+/* Estilos gerais do componente */
+.calculator-container {
+    max-width: 400px; /* Aumentar a largura máxima para corresponder ao conversor */
+    margin: 50px auto; /* Centraliza o componente horizontalmente */
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #D9D9D9; /* Cor de fundo principal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+    border: 1px solid #8C4126; /* Cor da borda */
+}
+
+/* Título do componente */
+.title {
+    text-align: center;
+    color: #2f3764; /* Cor do texto do título */
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px; /* Ajustar o tamanho da fonte para combinar */
+}
+
+/* Formulário de cálculo */
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grupo de campos do formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #10121b; /* Cor do texto dos labels */
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8C4126; /* Cor da borda dos inputs */
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botão de cálculo */
+.btn-calculate {
+    background-color: #BF6C3B; /* Cor de fundo dos botões */
+    color: #FFFFFF;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover do botão de cálculo */
+.btn-calculate:hover {
+    background-color: #8C4126; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+/* Container de resultados */
+.result-container {
+    margin-top: 20px;
+}
+
+/* Labels dentro do container de resultados */
+.result-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #111426; /* Cor do texto dos resultados */
+}
+
+/* Campos de entrada dentro do container de resultados */
+.result-container input {
+    background-color: #F4F4F4;
+    color: #111426;
+    margin-top: 5px;
+}

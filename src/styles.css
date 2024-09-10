@@ -1,0 +1,20 @@
+/* Define o background global para toda a aplicação */
+body {
+    background-color: #111426; /* Cor de fundo da janela */
+    color: #D9D9D9; /* Cor do texto padrão para contraste */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Garanta que o componente se destaque com um fundo diferente */
+  .calculator-container {
+    max-width: 360px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #D9D9D9; /* Cor de fundo do componente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #8C4126; /* Cor da borda */
+  }
+  

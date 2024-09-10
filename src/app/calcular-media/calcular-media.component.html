@@ -1,0 +1,27 @@
+<div class="calculator-container">
+    <h1 class="title">Calcular Média</h1>
+    <form class="calculator-form" (ngSubmit)="calculateAverage()">
+      <div class="form-group">
+        <label for="ac1">AC1:</label>
+        <input type="number" id="ac1" [(ngModel)]="ac1" name="ac1">
+      </div>
+      <div class="form-group">
+        <label for="ac2">AC2:</label>
+        <input type="number" id="ac2" [(ngModel)]="ac2" name="ac2">
+      </div>
+      <div class="form-group">
+        <label for="ag">AG:</label>
+        <input type="number" id="ag" [(ngModel)]="ag" name="ag">
+      </div>
+      <div class="form-group">
+        <label for="af">AF:</label>
+        <input type="number" id="af" [(ngModel)]="af" name="af">
+      </div>
+      <button class="btn-calculate" type="submit">Calcular</button>
+      <div class="result-container" *ngIf="result">
+        <label>Resultado:</label>
+        <input type="text" [value]="result" readonly>
+      </div>
+    </form>
+  </div>
+  

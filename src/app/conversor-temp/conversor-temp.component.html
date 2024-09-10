@@ -1,0 +1,21 @@
+<div class="converter-container">
+    <h1 class="title">Conversor de Temperatura</h1>
+    <form (ngSubmit)="converter()" #converterForm="ngForm" class="converter-form">
+      <div class="form-group">
+        <label for="celsius">Temperatura em Celsius:</label>
+        <input type="number" id="celsius" class="form-control" [(ngModel)]="celsius" name="celsius" required>
+      </div>
+      <button type="submit" class="btn-calculate">Converter</button>
+      <div class="result-container">
+        <div>
+          <label for="fahrenheit">Fahrenheit:</label>
+          <input type="text" id="fahrenheit" class="form-control" [value]="fahrenheit | number: '1.2-2'" readonly>
+        </div>
+        <div>
+          <label for="kelvin">Kelvin:</label>
+          <input type="text" id="kelvin" class="form-control" [value]="kelvin | number: '1.2-2'" readonly>
+        </div>
+      </div>
+    </form>
+  </div>
+  
